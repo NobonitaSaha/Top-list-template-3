@@ -29,6 +29,7 @@ body {
 
 .bg-container {
   background: #121212;
+  overflow-x: hidden;
 }
 
 h1,
