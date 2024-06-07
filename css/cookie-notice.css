@@ -1,0 +1,131 @@
+#cookieNotice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: 9px;
+  line-height: 11px;
+  border-radius: 5px;
+  background-color: #514E5C;
+  color: #ffffff;
+}
+#cookieNotice p {
+  width: 60%;
+}
+
+#cookieNotice p span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+
+#cookieNotice .btns-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+#cookieNotice .learn-more {
+  width: 123px;
+  padding: 8px 23px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #251E26 0%, #403841 100%);
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#cookieNotice .learn-more:hover {
+   transform: scale(1.02);
+}
+.cookies-btn {
+  width: 123px;
+  padding: 8px 23px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #EC2C02 0%, #FD4B24 100%);
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.cookies-btn:hover {
+  transform: scale(1.02);
+}
+
+@media (min-width: 800px) {
+
+  #cookieNotice {
+    padding: 25px 53px;
+  }
+
+  #cookieNotice p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  #cookieNotice .btns-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 33px;
+  }
+
+  #cookieNotice p {
+    width: 55%;
+  }
+
+  #cookieNotice p span {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+
+  #cookieNotice .btns-container {
+    width: 45%;
+  }
+
+  .cookies-btn {
+    width: fit-content;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px 25px;
+  }
+
+  #cookieNotice .learn-more {
+    width: fit-content;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px 25px;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  #cookieNotice {
+    gap: 50px;
+  }
+
+  #cookieNotice p {
+    width: 40%;
+  }
+
+  #cookieNotice .btns-container {
+    width: 30%;
+  }
+}
