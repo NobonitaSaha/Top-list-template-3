@@ -159,7 +159,7 @@ img {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #97ff00;
+  background: #49b54b;
 }
 .offer-container {
   display: flex;
@@ -174,20 +174,7 @@ img {
   justify-content: space-evenly;
   background: #323232;
 }
-.offer-label {
-  display: none;
-  position: absolute;
-  z-index: 9;
-  top: -13px;
-  left: 25px;
-  background: #97ff00;
-  padding: 3px 12px 4px 14px;
-  border-radius: 10px;
-  color: #FFFFFF;
-  font-size: 13px;
-  line-height: 17px;
-  font-weight: 700;
-}
+
 .offer-cover {
   display: flex;
   flex-direction: column;
@@ -256,7 +243,7 @@ img {
 .offer-votes .score-point {
   display: block;
   font-family: inherit;
-  color: #97ff00;
+  color: #49b54b;
   font-size: 18px;
   line-height: 20px;
   font-weight: 600;
@@ -321,7 +308,7 @@ img {
   font-family: inherit;
   font-size: 15px;
   line-height: 18px;
-  background: #97ff00;
+  background: #35c537;
   color: #FFFFFF;
   border: none;
   border-radius: 12px;
@@ -346,7 +333,7 @@ img {
   position: absolute;
   left: calc(-100% - 35px);
   top: 0;
-  background-color: #46ea7e;
+  background-color: #02b540;
   transition: left 0.5s ease;
 }
 .offer-btn::after {
@@ -358,14 +345,14 @@ img {
   height: 0px;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
-  border-top: 35px solid #46ea7e;
+  border-top: 35px solid #02b540;
   transition: left 0.5s ease;
 }
 .offer-btn:hover {
   transform: scale(1.05);
 }
 .offer-btn:hover a {
-  color: #97ff00;
+  color: #ffffff;
 }
 .offer-btn:hover:before {
   left: 0;
@@ -685,7 +672,7 @@ img {
     margin-bottom: 10px;
   }
   .sub-header_txt h1 > .break {
-    color: #97ff00;
+    color: #35c537;
   }
 }
 
@@ -772,7 +759,7 @@ img {
   left: 15px;
 }
 .ribbon-front {
-  background-color: #97ff00;
+  background-color: #bb1e1e;
   height: 30px;
   width: 180px;
   position: relative;
@@ -781,7 +768,7 @@ img {
   font: 13px/30px bold, "Montserrat", sans-serif;
   color: #f8f8f8;
   text-align: center;
-  text-shadow: 0px 1px 2px #97ff0096;
+  text-shadow: 0px 1px 2px #ad1f1f4b;
   letter-spacing: 0.5px;
 }
 .ribbon-front,
@@ -816,7 +803,7 @@ top: 30px;
 
 .ribbon-edge-topleft, .ribbon-edge-bottomleft {
   left: -10px;
-  border-color: transparent #669523 transparent transparent;
+  border-color: transparent #8d0d0d transparent transparent;
 }
 
 .ribbon-edge-topleft {
@@ -829,7 +816,7 @@ border-width: 0 10px 0px 0;
 
 .ribbon-edge-topright, .ribbon-edge-bottomright {
   left: 161px;
-  border-color: transparent transparent transparent #669523;
+  border-color: transparent transparent transparent #8d0d0d;
 }
 
 .ribbon-edge-topright {
@@ -868,13 +855,13 @@ border-width: 0 0 5px 10px;
   }
 
   .offer-container {
-    padding: 40px 13px 11px 20px;
+    padding: 40px 13px 11px 10px;
   }
 
   .offer-btn {
     width: 100%;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 12px 5px;
   }
 
@@ -896,7 +883,7 @@ border-width: 0 0 5px 10px;
 
   
   .sub-header_txt h1 > .break {
-    color: #97ff00;
+    color: #35c537;
   }
 
   .sub-header_txt p {
@@ -923,6 +910,17 @@ border-width: 0 0 5px 10px;
     position: relative;
     top: -55px;
   }
+
+  .offer-logo {
+    width: 100%;
+    max-width: 90px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    text-align: center;
+    margin-left: -30px;
+  }
 }
 
 
@@ -935,7 +933,7 @@ border-width: 0 0 5px 10px;
   }
 
   .sub-header_txt h1 > .break {
-    color: #97ff00;
+    color: #35c537;
   }
   
   #navbar {
